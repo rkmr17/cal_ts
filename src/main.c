@@ -20,6 +20,17 @@ int division(int num1, int num2) {
   return num1 / num2;
 }
 
+void displayMenu() {
+   printf("===== 電卓メニュー =====\n");
+    printf("1. 加算\n");
+    printf("2. 減算\n");
+    printf("3. 乗算\n");
+    printf("4. 除算\n");
+    printf("5. 終了\n");
+    printf("========================\n");
+    printf("選択してください：");
+}
+
 int main() {
   printf("hello\n");
   return 0;
