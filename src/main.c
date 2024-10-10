@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+void userInput(int num1, int num2) {
+    printf("最初の数字を入力してください：");
+    scanf("%d", num1);
+
+    printf("次の数字を入力してください：");
+    scanf("%d", num2);
+  }
+
 int add(int num1, int num2) {
   return num1 + num2;
 }
