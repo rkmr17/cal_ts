@@ -31,6 +31,10 @@ void displayMenu() {
     printf("選択してください：");
 }
 
+void printResult(int result) {
+  printf("結果: %d\n", result);
+}
+
 int main() {
   printf("hello\n");
   return 0;
