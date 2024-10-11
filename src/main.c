@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void userInput(int num1, int num2) {
+void userInput(int *num1, int *num2) {
     printf("最初の数字を入力してください：");
     scanf("%d", num1);
 
@@ -45,5 +45,6 @@ void printResult(int result) {
 
 int main() {
   printf("hello\n");
+  displayMenu();
   return 0;
 }
