@@ -45,6 +45,8 @@ void printResult(int result) {
 
 int main() {
   printf("hello\n");
+
+  //メニュー表示
   displayMenu();
   return 0;
 }
