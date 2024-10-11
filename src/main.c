@@ -46,7 +46,10 @@ void printResult(int result) {
 int main() {
   printf("hello\n");
 
+  int num1, num2, result;
+
   //メニュー表示
   displayMenu();
+
   return 0;
 }
