@@ -51,5 +51,8 @@ int main() {
   //メニュー表示
   displayMenu();
 
+  //ユーザー入力
+  userInput(&num1, &num2)
+
   return 0;
 }
