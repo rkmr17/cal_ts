@@ -46,13 +46,16 @@ void printResult(int result) {
 int main() {
   printf("hello\n");
 
-  int num1, num2, result;
+  int num1, num2, result, choice;
 
   //メニュー表示
   displayMenu();
 
+  //ユーザーメニュー選択
+  scanf("%d", &choice);
+
   //ユーザー入力
-  userInput(&num1, &num2)
+  userInput(&num1, &num2);
 
   return 0;
 }
